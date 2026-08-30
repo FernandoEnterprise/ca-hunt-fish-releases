@@ -13,3 +13,5 @@ GIS-derived geometry originates from CDFW open data (CC-BY). Boundaries are
 approximate and not for navigation or defining legal boundaries.
 
 Always verify current regulations with CDFW before hunting or fishing.
+
+Maintained by Antonio Esquivel (svpguru@gmail.com), publisher of CA Hunt & Fish Guide.
