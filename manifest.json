@@ -1,24 +1,24 @@
 {
  "schema_version": 1,
- "dataset_version": "2026.08.28.2",
- "published_at": "2026-08-29T01:14:33.317666+00:00",
+ "dataset_version": "2026.08.31",
+ "published_at": "2026-08-31T18:02:07.443043+00:00",
  "files": [
   {
    "name": "freshwater_regs.json",
    "domain": "freshwater",
-   "sha256": "f7bd3fac0cb8091c6c839085209a588163d2d75304e05dc548aaea55d133016e",
+   "sha256": "7ba9e3ffd70b7cd201d80aa2d89b9207dca31da84931677bd4654b6f38316be7",
    "bytes": 677259
   },
   {
    "name": "statewide_defaults.json",
    "domain": "freshwater",
-   "sha256": "f361a0b57d949ac6b2f70ba5f77d9303f6e06ac8a1c8d243faa0b92bb2a76c04",
-   "bytes": 551579
+   "sha256": "ae4abcdebcc6a91774ba4704184a6f9cbca6d1cbcafc35406a00ed091c1fce86",
+   "bytes": 546355
   },
   {
    "name": "mpas.json",
    "domain": "mpa",
-   "sha256": "6981486512b1b93bcd79d4b877e05bd0610703e80da51c4e456ce872156dcc94",
+   "sha256": "77f9da6d4306be90f245296ea852315aca88fcdf56645b5b2d6b024f1f7e2573",
    "bytes": 206825
   },
   {
@@ -34,27 +34,45 @@
    "bytes": 150235
   },
   {
+   "name": "ocean_species.json",
+   "domain": "ocean",
+   "sha256": "08787a666b7f9c7e3dc7d9bf4320e3d4e677da1514bf0e1ca9c708effb740ebc",
+   "bytes": 24111
+  },
+  {
+   "name": "hunt_big_game.json",
+   "domain": "freshwater",
+   "sha256": "2a27d69be68666378deed10c58c9509cf67e04d7bc228f5944011b541acf8d76",
+   "bytes": 5134
+  },
+  {
    "name": "hunt_deer.json",
    "domain": "deer",
-   "sha256": "3eac49bb573af1591ed7d6051e716ffa135f8d91af2257e7e2d01e8cd17003e9",
-   "bytes": 46192
+   "sha256": "d67f66ea814a4f06e987fe2eb0701503d52e38b3ce002a27266e076bc8ced155",
+   "bytes": 130596
+  },
+  {
+   "name": "hunt_shooting_hours.json",
+   "domain": "freshwater",
+   "sha256": "7cbdee55b8556dd5e5f83a87630ba3729d1bb31fa4dfeeac69c68ae941744d51",
+   "bytes": 3332
   },
   {
    "name": "hunt_waterfowl.json",
    "domain": "birds",
-   "sha256": "6ce4871b20fcd9d15638d8e972b9a94c61185d43a2beb8bea4e4f1372e3ee33c",
+   "sha256": "ed0f2cde895a62eaab91fa614d207e2b8357a3cd1f674d9b0420c447578c954c",
    "bytes": 14316
   },
   {
    "name": "hunt_upland.json",
    "domain": "birds",
-   "sha256": "9231e56e381f65e9f13f35feedfe0804d25ab5937eee939c553f37bd0c054bca",
+   "sha256": "74a2143130ba70e8241c57afd805eb9783d76ad36a464d6f1598d303443079e9",
    "bytes": 14768
   },
   {
    "name": "hunt_small_game.json",
    "domain": "birds",
-   "sha256": "78b7a6d16fe3afb25875f89ac3ddcde378d885b3cffa68cc804f61efb480953d",
+   "sha256": "2c652ee12ca67b57d0efceceae2c8ecf4f3104b95adb0fecebe9cd548dfa761e",
    "bytes": 2080
   },
   {
@@ -70,28 +88,52 @@
    "bytes": 119190
   },
   {
+   "name": "geo/nws_zones.geojson",
+   "domain": "freshwater",
+   "sha256": "8f805de4b025c2d98dcdf15b8b39da73ca2753842851750f82f6d2dccf95de69",
+   "bytes": 2439386
+  },
+  {
    "name": "ocean.json",
    "domain": "ocean",
-   "sha256": "f413fd0dcc5839538a3440d3c51843a54891eb61d69b4dc5b8a67c9e5d7d781f",
+   "sha256": "b0002dff02cba1e6ce7837e94c13f463500dfd2300e2b1240ebd48346743e755",
    "bytes": 19368
   },
   {
    "name": "lakes.json",
    "domain": "lakes",
-   "sha256": "41ded4957475bca17205a1ec7f9cd1083fb27e8c515316984532a4109d5caa9b",
-   "bytes": 20366
+   "sha256": "b4460c0ed3a9cda0e5bef3527e5c8a364d7e40fc87a3a96886e6bf988dfa1042",
+   "bytes": 20744
   },
   {
    "name": "stocking.json",
    "domain": "lakes",
-   "sha256": "0dd04d76bec3bdba0c884dce2a2d6f22f67ea7b9eaa000a828008d7e629be3d5",
-   "bytes": 332737
+   "sha256": "0062d6214f7911f3d0255a900a6d8dd1a0fd73f9280e49bae703175c5df957f4",
+   "bytes": 451783
   },
   {
    "name": "licenses_fees.json",
    "domain": "licenses",
-   "sha256": "4279e686aba4da01d163f45d921a3d59a567d2107816c0328814821c2cf72d19",
+   "sha256": "2c26d127ea0494b4cce7a9c8f697d8a84650675a7925ab8da5287298af072879",
    "bytes": 40735
+  },
+  {
+   "name": "lakes_directory.json",
+   "domain": "lakes_directory",
+   "sha256": "642f1bde98dbf0ae9da20bf09875d8754ed148f7053c08b54e297c0d10246231",
+   "bytes": 4598920
+  },
+  {
+   "name": "geo/lakes_points.geojson",
+   "domain": "lakes_directory",
+   "sha256": "f3e5afbd6aaa7b5e62d33a8b7c05f5280f26ab7dfdc74c6b282b6a2ff2c205d7",
+   "bytes": 426312
+  },
+  {
+   "name": "geo/backcountry_points.geojson",
+   "domain": "lakes_directory",
+   "sha256": "ddfd7c40b15a9c185914557877ea9f5f7a89e55ba905d998065e54213a874e2c",
+   "bytes": 494299
   }
  ],
  "domains": [
@@ -107,7 +149,7 @@
   },
   {
    "id": "deer",
-   "verified_at": "2026-08-28",
+   "verified_at": "2026-08-31",
    "curation_status": "verified"
   },
   {
@@ -126,6 +168,12 @@
   {
    "id": "licenses",
    "verified_at": "2026-08-28"
+  },
+  {
+   "id": "lakes_directory",
+   "verified_at": "2026-08-29",
+   "source_revision": "research-2026-08-29",
+   "curation_status": "draft_pending_user_verification"
   }
  ],
  "notices": []
