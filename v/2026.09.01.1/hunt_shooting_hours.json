@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-02T04:08:37.453387+00:00",
+ "generated_at": "2026-09-02T04:41:10.422298+00:00",
  "curation_status": "verified",
  "note": "Legal shooting hours quoted verbatim per species group. The app states the rule and does NOT compute sunrise/sunset: CDFW publishes precomputed shooting-hour tables by date and location (Waterfowl booklet pp. 32-33), and both \u00a7506 and \u00a7310.5 direct the reader to them.",
  "official_tables": {

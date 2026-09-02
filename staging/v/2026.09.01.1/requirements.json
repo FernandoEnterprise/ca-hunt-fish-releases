@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-02T04:08:38.665346+00:00",
+ "generated_at": "2026-09-02T04:41:11.592216+00:00",
  "curation_status": "verified",
  "note": "What a user must buy, per activity, with each row pinned to a sentence CDFW published. Rows are validated against licenses_fees.json and the extracted regulation text at draft time, so a wording change fails the build rather than shipping a stale requirement. 'unresolved' is a first-class value: the dove row states both what is known and what is not, because silence reads as 'you don't need it' and a guess reads as 'you do'.",
  "purchase_url": "https://licenses.wildlife.ca.gov",
